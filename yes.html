@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="./yes_style.css">
-        
-    </head> 
-    <body>
-        <div class="container">
-            <div >
-                <h1 class = "header_text">Xin chúc mừng <strong style="color:rgb(161, 199, 237); font-style: italic;">Vũ Hương Giang</strong>, em đã chính thức được thăng hạng. </h1></h1>
-                <h1 class="header_text">Từ giờ em là Valentine Lover của anh -</h1>
-            </div>
-            <div class="gif_container">
-                <img src="assets/kiss.jpg">
-            </div>
-            <div class="footer_text">
-                <h1 class = "header_text">- yêu,</h1>
-                <h1 class = "header_text"><strong style="color:rgb(161, 199, 237); font-style: italic;">Nguyễn Phúc Minh</strong> </h1>
-            </div>
+<head>
+    <link rel="stylesheet" href="./yes_style.css">
+</head> 
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">Xin chúc mừng <strong style="color:rgb(161, 199, 237); font-style: italic;">Vũ Hương Giang</strong>, em đã chính thức được thăng hạng. </h1>
+            <h1 class="header_text">Từ giờ em là Valentine Lover của anh -</h1>
         </div>
-       
-    </body> 
+        <div class="gif_container">
+            <img src="assets/kiss.jpg">
+        </div>
+        <div class="footer_text">
+            <h1 class="header_text">- yêu,</h1>
+            <h1 class="header_text"><strong style="color:rgb(161, 199, 237); font-style: italic;">Nguyễn Phúc Minh</strong> </h1>
+        </div>
+    </div>
+   
+    <script>
+        window.onload = function() {
+            if(window.performance.navigation.type === 1) {
+                goBack();
+            }
+        };
+
+        function goBack() {
+            history.go(-1);
+        }
+    </script>
+</body> 
 </html>
